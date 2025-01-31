@@ -131,7 +131,5 @@ docker compose down
 - Check if required directories exist (`db`, `ollama`, `.env.local`).
 - Make sure no other services are running on the specified ports (`27017`, `11434`, `5000`).
 
-## License
 
-This project is licensed under the MIT License.
 
