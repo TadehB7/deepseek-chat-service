@@ -25,6 +25,7 @@ services:
       - 3000:3000
     depends_on:
       - mongodb
+      - ollama-service  # Ensure Ollama starts after MongoDB
     networks:
       - chat-ui
 
