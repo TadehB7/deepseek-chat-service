@@ -24,8 +24,8 @@ services:
     ports:
       - 3000:3000
     depends_on:
-      - mongodb
-      - ollama-service  # Ensure Ollama starts after MongoDB
+      - mongodb # Ensure Ollama starts after MongoDB
+      - ollama-service  # Ensure Ollama starts after ollama-service
     networks:
       - chat-ui
 
